@@ -1,0 +1,21 @@
+"codSituacaoCDA","nomSituacaoCDA","codSituacaoFiscal","codFaseCobranca","codExigibilidade","tipoSituacao"
+1,Inscrita,1,1,1,A
+2,Cancelada,1,1,3,A
+3,Cobrança,1,1,1,A
+5,Cobrança Garantida,1,1,1,A
+6,Leilão,1,1,1,A
+7,Parcelada,1,1,2,A
+10,Suspensa,1,1,2,A
+13,Paga,1,1,3,A
+16,Arrematação,1,1,1,A
+30,Negociada,1,1,1,A
+45,Parcelamento Irregular,1,1,1,A
+99,Migracao Ativos,1,1,1,M
+98,Migracao Cancelamento,1,1,3,M
+97,Migracao Pagos,1,1,3,M
+96,Migracao Parcelados,1,1,2,M
+95,Migracao Leilao,1,1,1,M
+94,Migracao Suspensas,1,1,2,M
+93,Migracao Honorarios,1,1,1,M
+14,Paga por Conversão,1,1,3,A
+15,Paga por Guia Especial,1,1,3,A

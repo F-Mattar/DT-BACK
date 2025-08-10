@@ -1,0 +1,20 @@
+# Usa a imagem oficial do Python 3.11 como base.
+FROM python:3.11-slim
+
+# Define o diretório de trabalho dentro do contentor.
+WORKDIR /app
+
+# Copia o ficheiro de dependências primeiro para otimizar o cache do Docker.
+COPY ./requirements.txt /app/requirements.txt
+
+# Instala as dependências Python.
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
+
+# Copia o código da API para dentro do contentor.
+COPY ./api /app/api
+
+# Expõe a porta 8000, onde a nossa API será executada.
+EXPOSE 8000
+
+# Comando para iniciar a API quando o contentor iniciar.
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

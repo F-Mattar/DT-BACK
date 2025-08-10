@@ -1,0 +1,48 @@
+services:
+  # Serviço do Banco de Dados PostgreSQL
+  db:
+    image: postgres:13-alpine
+    volumes:
+      # Monta o script de criação do schema para ser executado na inicialização
+      - ./sql/01_schema_creation.sql:/docker-entrypoint-initdb.d/init.sql
+      # Persiste os dados do banco de dados
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=divida_ativa_dw
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d divida_ativa_dw"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Serviço do ETL - Roda uma vez e termina
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile.etl
+    environment:
+      # A API e o ETL agora se conectam ao serviço 'db', não 'localhost'
+      - DATABASE_URL=postgresql://user:password@db:5432/divida_ativa_dw
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Serviço da API FastAPI
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://user:password@db:5432/divida_ativa_dw
+    depends_on:
+      etl:
+        condition: service_completed_successfully
+
+volumes:
+  postgres_data:

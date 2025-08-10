@@ -1,0 +1,69 @@
+"idNaturezadivida","nomnaturezadivida","descnaturezadivida"
+1,IPTU/Taxas - Predial,IPTU/Taxas - Predial
+2,IPTU/Taxas - Territorial,IPTU/Taxas - Territorial
+3,IPTU/Taxas - Predial,IPTU/Taxas - Predial
+4,IPTU/Taxas - Territorial,IPTU/Taxas - Territorial
+5,IPTU/Taxas - Predial,IPTU/Taxas - Predial
+6,IPTU/Taxas - Territorial,IPTU/Taxas - Territorial
+7,IPTU/Taxas,IPTU/Taxas
+8,IPTU/Taxas - Predial,IPTU/Taxas - Predial
+9,IPTU/Taxas - Territorial,IPTU/Taxas - Territorial
+10,ISS,ISS
+15,ISS - Multa Formal,ISS - Multa Formal
+20,IVVC,IVVC
+25,IVVC - Multa Formal,IVVC - Multa Formal
+30,ITBI,ITBI
+35,ITBI - Multa Formal,ITBI - Multa Formal
+40,Taxa de Licença de Estabelecimento,Taxa de Licença de Estabelecimento
+41,Taxa de Autorização de Publicidade,Taxa de Autorização de Publicidade
+42,Taxa de Uso Área Pública,Taxa de Uso Área Pública
+43,Taxa de Obras em Áreas Particulares,Taxa de Obras em Áreas Particulares
+44,Taxa de Inspeção Sanitária,Taxa de Inspeção Sanitária
+45,Taxa de Fiscalização de Cemitérios,Taxa de Fiscalização de Cemitérios
+46,Taxa de Fiscalização de Transporte,Taxa de Fiscalização de Transporte
+47,Taxa de Obras em Logradouros Públicos,Taxa de Obras em Logradouros Públicos
+48,Taxa de Inspeção Sanitária,Taxa de Inspeção Sanitária
+51,IPTU/Taxas - Predial Avulsa,IPTU/Taxas - Predial Avulsa
+52,IPTU/Taxas - Territorial Avulsa,IPTU/Taxas - Territorial Avulsa
+60,Multa Administrativa (Saúde),Multa Adm (S.M. Saúde)
+61,Multa Admistrativa (Fazenda),Multa Adm (S.M. Fazenda)
+62,Multa Administrativa,Multa Administrativa
+63,Multa Administrativa (Urbanismo),Multa Adm (S.M. Urbanismo)
+64,Multa Administrativa,Multa Administrativa
+65,Multa Administrativa,Multa Administrativa
+66,Multa Administrativa,Multa Administrativa
+67,Multa Administrativa (GeoRio),Multa Adm (Fundação GeoRio)
+68,Multa Administrativa (Parques e Jardins),Multa Adm (Fundação Parques e Jardins)
+69,Multa Administrativa,Multa Administrativa
+70,Multa Administrativa (Transportes),Multa Adm (S.M.Transportes)
+71,Multa Administrativa (Meio Ambiente),Multa Adm (S.M. Meio Ambiente)
+72,Multa Administrativa (Urbanismo),Multa Adm (S.M. Urbanismo)
+73,Multa / Honorários,Multa / Honorários
+74,Multa Administrativa (Rioluz),Multa Adm (Rioluz)
+75,MULTA/RESSARCIMENTO TCM,MULTA/RESSARCIMENTO TCM
+76,Multa CODECON (Lei n. 8.078/90),Multa CODECON (Lei n. 8.078/90)
+77,TAC CODECON (Lei n. 8.8078/90),TAC CODECON (Lei n. 8.8078/90)
+80,Mais-Valia,Mais-Valia
+81,Caução,Caução
+82,Lei 6766/79 (Loteamento Irregular),Lei 6766/79 (Loteamento Irregular)
+83,Laudo de Vistoria,Laudo de Vistoria
+84,Ressarcimento,Ressarcimento
+86,Restituição SMA,Restituição (SM Administração)
+87,Restituição CMRJ,Restituição CMRJ
+89,Diretoria de Patrimônio,Diretoria de Patrimônio
+90,Laudêmio / Foro / Multa,Laudêmio / Foro / Multa
+91,Cessão/Concessão de uso,Cessão/Concessão de uso
+92,Permissão de uso,Permissão de uso
+93,Remuneração Provisória,Remuneração Provisória
+95,Multa Contratual,Multa Contratual
+96,Empréstimo,Empréstimo
+0,Natureza Não Cadastrada,Natureza Não Cadastrada
+55,Migraçao - 55,Natureza não cadastrada
+56,Migraçao - 56,Natureza não cadastrada
+97,Operações Interligadas - SMU,Operações Interligadas - SMU
+88,RESTITUIÇÃO SMF,RESTITUIÇÃO SMF
+78,Restituição Condenação TrabalhistaPG/PPE,Restituição de Condenação Trabalhista (PG/PPE)
+79,Multa Administrativa (SUBEM),Multa Administrativa maus tratos animais
+85,Restituição SMASDH,Restituição (SM Assist Social Dir Humanos)
+94,Previ-Rio,Instituto de Previdência e Assistência
+98,Funprevi,Fundo Especial de Previdência
