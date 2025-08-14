@@ -40,7 +40,7 @@ Com o Docker e o Docker Compose instalados, você pode executar todo o ambiente 
 
 **1. Clone este repositório:**
 ```bash
-git clone <url-do-seu-repositorio>
+git clone <https://github.com/F-Mattar/DT-BACK>
 cd DT-BACK
 ```
 
